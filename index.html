@@ -20,9 +20,39 @@
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .whatsapp-chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+
+        .whatsapp-link {
+            display: block;
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            font-size: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-link:hover {
+            background-color: #128c7e;
+        }
+    </style>
 </head>
 
 <body class="index-two">
+    <div class="whatsapp-chat">
+        <a href="https://api.whatsapp.com/send?phone=6281519496001" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
 
 
     <!-- header style two -->
@@ -41,7 +71,7 @@
                                 </div>
                                 <div class="inf">
                                     <i class="fa-regular fa-envelope"></i>
-                                    <a href="tel:+4733378901">info@drill-solar.com</a>
+                                    <a href="mailto:agnes.hrpind@gmail.com">agnes.hrpind@gmail.com</a>
                                 </div>
                             </div>
                             <div class="right">
@@ -101,8 +131,8 @@
                                         <rect width="20" height="2" fill="#c41720" />
                                     </svg>
                                 </div>
-                                <a href="tel:+4733378901" class="rts-btn btn-primary">Call for help:
-                                    682-3386-69862</a>
+                                <a href="tel:+6281519496001" class="rts-btn btn-primary">Call for help:
+                                    +62 815-1949-6001</a>
                             </div>
                         </div>
                     </div>
@@ -304,15 +334,14 @@
                 </div>
             </div>
             <div class="row g-24 mt--20">
-                <div class="col-xl-4 col-lg-4 col-sm-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-12">
                     <!-- ignle service height solari -->
                     <div class="single-solari-service-start">
                         <div class="icon-area">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
-                                viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 576 512">
                                 <path
-                                    d="M0 80v48c0 17.7 14.3 32 32 32H48 96V80c0-26.5-21.5-48-48-48S0 53.5 0 80zM112 32c10 13.4 16 30 16 48V384c0 35.3 28.7 64 64 64s64-28.7 64-64v-5.3c0-32.4 26.3-58.7 58.7-58.7H480V128c0-53-43-96-96-96H112zM464 480c61.9 0 112-50.1 112-112c0-8.8-7.2-16-16-16H314.7c-14.7 0-26.7 11.9-26.7 26.7V384c0 53-43 96-96 96H368h96z" />
+                                    d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z" />
                             </svg>
                         </div>
                         <a href="service-details.html">
@@ -326,7 +355,7 @@
                     </div>
                     <!-- ignle service height solari end -->
                 </div>
-                <div class="col-xl-4 col-lg-4 col-sm-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-12">
                     <!-- ignle service height solari -->
                     <div class="single-solari-service-start two">
                         <div class="icon-area">
@@ -347,7 +376,7 @@
                     </div>
                     <!-- ignle service height solari end -->
                 </div>
-                <div class="col-xl-4 col-lg-4 col-sm-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-12">
                     <!-- ignle service height solari -->
                     <div class="single-solari-service-start three">
                         <div class="icon-area">
@@ -386,7 +415,9 @@
                                     Contact US
                                 </span>
                             </span>
-                            <h4 class="title skew-up">Get Free Consultancy or <br> +1 (800) 123 446 559</h4>
+                            <h4 class="title skew-up mb-0 pb-0">Get Free Consultancy</h4>
+                            <h3 class="title pt-0 mt-0">+62 815-1949-6001</h3>
+
                         </div>
                         <div class="right-area">
                             <button class="rts-btn btn-primary">Get It Now</button>
@@ -860,8 +891,8 @@
                                             </svg>
                                         </div>
                                         <div class="info-content ml-dec-5">
-                                            <a href="tel:+4733378901">
-                                                <h6 class="title">+23 5825-32535</h6>
+                                            <a href="tel:+6281519496001">
+                                                <h6 class="title">+62 815-1949-6001</h6>
                                             </a>
                                             <span>Call us for support</span>
                                         </div>
@@ -880,8 +911,8 @@
 
                                         </div>
                                         <div class="info-content">
-                                            <a href="mailto:someone@example.com">
-                                                <h6 class="title">dril.sola@gmail.com</h6>
+                                            <a href="mailto:agnes.hrpind@gmail.com">
+                                                <h6 class="title">agnes.hrpind@gmail.com</h6>
                                             </a>
                                             <span>Email us for query</span>
                                         </div>
@@ -900,10 +931,13 @@
 
                                         </div>
                                         <div class="info-content">
-                                            <a href="#">
-                                                <h6 class="title">1058 Helton Ave, Stky</h6>
+                                            <a href="https://www.google.com/maps/search/Jl.%20Pintu%20Besar%20Selatan%20No.44%2C%20RT.10%2FRW.5%2C%20Pinangsia%2C%20Kec.%20Taman%20Sari%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011110%2C%20Indonesia/@-6.1399,106.8141,17z?hl=id"
+                                                target="_blank">
+                                                <h6 class="title">Jl. Pintu Besar Selatan No.44, RT.10/RW.5, Pinangsia,
+                                                    Kec. Taman Sari, Kota Jakarta Barat</h6>
                                             </a>
-                                            <span>Berlin, Germany</span>
+                                            <span>Daerah Khusus Ibukota Jakarta
+                                                11110, Indonesia</span>
                                         </div>
                                     </div>
                                     <!-- single contact area end -->
@@ -939,13 +973,15 @@
 
     <!-- header style two -->
 
-    <div class="progress-wrap">
+    <!-- <div class="progress-wrap">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
                 style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg>
-    </div>
+    </div> -->
+
+
 
 
     <!-- pre loader start -->
